@@ -1,0 +1,22 @@
+.slides{
+    margin-top: 10px;
+    img{
+      border-radius: 10px;
+      box-shadow: -1px 11px 13px -6px rgb(87, 86, 86);
+      height:300px;
+      width:500px;
+    }
+  
+    .title{
+      position: absolute;
+      bottom: 0;
+      color: white;
+      text-align: left;
+      font-weight: bold;
+      padding: 10px;
+      text-shadow: 1px 1px 2px grey;
+    }
+  }
+  ion-slide{
+    padding-bottom: 20px;
+  }
