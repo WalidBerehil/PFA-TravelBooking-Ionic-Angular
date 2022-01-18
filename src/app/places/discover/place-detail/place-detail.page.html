@@ -25,19 +25,33 @@
       </ion-col>
     </ion-row>
 
+    <ion-row *ngIf="place.title!='Morocco'">
+      <ion-col size-sm="6" offset-sm="3" text-center padding>
+        <p>Price : {{ place.price }}Dh / Night</p>        
+      </ion-col>
+    </ion-row>
+
+    <ion-row *ngIf="place.title!='Morocco'">
+      <ion-col size-sm="6" offset-sm="3" padding text-center>
+        <p>availability From {{ place.availableFrom | date }} To {{ place.availableTo | date }}</p>
+      </ion-col>
+    </ion-row>
+
     <ion-row>
       <ion-col size-sm="6" offset-sm="3" padding text-center>
         <p>{{ place.location.address }}</p>
       </ion-col>
     </ion-row>
 
-    <ion-row>
+
+
+    <ion-row *ngIf="place.title!='Morocco'">
         <ion-col size-sm="6" offset-sm="3" no-padding>
           <ion-img role="button" (click)="onShowFullMap()" class="location-image" [src]="place.location.staticMapImageUrl"></ion-img>
         </ion-col>
       </ion-row>
 
-    <ion-row *ngIf="isBookable">
+    <ion-row *ngIf="isBookable && place.title!='Morocco'">
       <ion-col size-sm="6" offset-sm="3" text-center class="btnbook">
         <ion-button color="primary" margin (click)="onBookPlace()">Book</ion-button>
       </ion-col>

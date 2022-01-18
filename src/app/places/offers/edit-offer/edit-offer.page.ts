@@ -48,7 +48,7 @@ export class EditOfferPage implements OnInit, OnDestroy {
 						}),
 						description: new FormControl(this.place.description, {
 							updateOn: 'blur',
-							validators: [Validators.required, Validators.maxLength(180)]
+							validators: [Validators.required, Validators.maxLength(300)]
 						})
 					});
 					this.isLoading = false;
