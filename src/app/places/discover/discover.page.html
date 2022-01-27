@@ -38,7 +38,9 @@
           </ion-card-header>
           <ion-img [src]="relevantPlaces[0].imageUrl"></ion-img>
           <ion-card-content>
-            <p>{{ relevantPlaces[0].description}}</p>
+            <p style="    overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;">{{ relevantPlaces[0].description}}</p>
           </ion-card-content>
           <div>
             <ion-button fill="clear" color="tertiary" routerDirection="forward" [routerLink]="[
