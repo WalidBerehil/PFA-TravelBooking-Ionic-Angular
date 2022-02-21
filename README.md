@@ -26,4 +26,4 @@ App for travel booking
 \
 ![page](./img/Map.png) \
 \
-![page](./img/Offers.png) \
+![page](./img/Offers.png)
