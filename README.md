@@ -16,10 +16,10 @@ App for travel booking
 
 ## :camera: Screenshots
 
-![page](./img/Login.png)
-![page](./img/ListView.png)
-![page](./img/ListView.png)
-![page](./img/CardView.png)
-![page](./img/Details.png)
-![page](./img/Map.png)
-![page](./img/Offers.png)
+![page](./img/Login.png) \
+![page](./img/ListView.png) \
+![page](./img/ListView.png) \
+![page](./img/CardView.png) \
+![page](./img/Details.png) \
+![page](./img/Map.png) \
+![page](./img/Offers.png) \
