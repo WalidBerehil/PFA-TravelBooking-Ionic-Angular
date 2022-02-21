@@ -4,9 +4,9 @@
 
 export const environment = {
 	production: false,
-	googleMapsAPIKey: 'AIzaSyB4SOoIfPZ3HGlbAeT7UALlmBydeoq4t2Y',
-	firebaseAPIKey: 'AIzaSyB4SOoIfPZ3HGlbAeT7UALlmBydeoq4t2Y',
-	projectId: 'visitmorocco-1'
+	googleMapsAPIKey: '',
+	firebaseAPIKey: '',
+	projectId: ''
 };
 
 /*

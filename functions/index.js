@@ -13,11 +13,11 @@ uuid();
 const { Storage } = require('@google-cloud/storage');
 
 const storage = new Storage({
-	projectId: 'visitmorocco-1',
+	projectId: environment.projectId,
 });
 
 fbAdmin.initializeApp({
-	credential: fbAdmin.credential.cert(require('./visitmorocco-1-firebase-adminsdk-tv30q-422bfe42ab.json')),
+	credential: fbAdmin.credential.cert(require('privatekey.json')),
 });
 
 /**

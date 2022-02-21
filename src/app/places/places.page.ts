@@ -17,8 +17,8 @@ export class PlacesPage implements OnInit {
           
   }
 	isAdminOrNot() {
-		this.authService.userId.pipe(take(1)).subscribe(userId => {
-			if (userId == 'Zz7ubaozsEcsOYtWJeqrmQiWYHu1') {
+		this.authService.userEmail.pipe(take(1)).subscribe(userEmail => {
+			if (userEmail == 'admin@admin.com') {
 				this.isAdmin = true;
 			} else {
 				this.isAdmin = false;
